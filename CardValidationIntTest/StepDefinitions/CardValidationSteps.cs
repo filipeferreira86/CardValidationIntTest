@@ -59,7 +59,8 @@ namespace CardValidationIntTest.StepDefinitions
                     }
                     else
                     {
-                        Assert.False(true, message: "Card type should be 20 (mastercard),\n but is " + cardTypeReturned);
+                        Assert.False(true, message: "Card type should be 20 (mastercard),\n" +
+                            " but is " + cardTypeReturned);
                     }
                     break;
                 case "visa":
@@ -69,7 +70,8 @@ namespace CardValidationIntTest.StepDefinitions
                     }
                     else
                     {
-                        Assert.False(true, message: "Card type should be 10 (Visa),\n but is " + cardTypeReturned);
+                        Assert.False(true, message: "Card type should be 10 (Visa),\n" +
+                            " but is " + cardTypeReturned);
                     }
                     break;
                 case "american axpress":
