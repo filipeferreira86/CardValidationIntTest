@@ -1,0 +1,9 @@
+{
+  "url": "https://localhost:7135/CardValidation/card/credit/validate",
+  "Visa": "4000000000000",
+  "Master": "2221000000000000",
+  "AmericanExpress": "347000000000000",
+  "owner": "Filipe F Jesus",
+  "date": "12/2024",
+  "cvv": "123"
+}
