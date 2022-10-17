@@ -21,4 +21,4 @@ To run this test you must have the API running in the address shown in the cardD
 4) Running the tests
   4.1) If you're using Visual Studio you can use the test explorer, just clicking on the "Run all button"
   4.2) If you're not using the Visual studio or want to run it on command line or even want to run it on a pipeline, you can run it with the instructipon below in a command line:
-    ```dotnet test --no-build```
+    ```dotnet test```
